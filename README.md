@@ -43,8 +43,7 @@ cd WHATEVER_YOU_NAMED
 After that run this command 
 
 ```bash
-git clone https://github.com/AbuBakarFarooq224/Ye-Stronger
-```
+git clone https://github.com/AbuBakarFarooq224/Ye-Stronger.git
 ```
 
 
@@ -77,9 +76,6 @@ Chop *Stronger* by Ye into 8 short `.wav` clips and place them in the `assets/` 
 | `faster.wav` | Faster |
 | `stronger.wav` | Stronger |
 
-> If any file is missing, the app automatically falls back to a synthetic piano tone so it always runs.
-
----
 
 ## Running
 
