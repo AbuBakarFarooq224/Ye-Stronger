@@ -13,8 +13,6 @@ A real-time AR music interface built with Python and OpenCV. Each finger on both
 ## Project Structure
 
 ```
-project/
-│
 ├── main.py              # Main app loop
 ├── hand_tracker.py      # MediaPipe hand tracking
 ├── finger_label.py      # Draws word boxes on fingertips
@@ -37,11 +35,12 @@ project/
 
 ## Installation
 
-**1. Clone or download the project**
+Make a Separate Folder in your PC and name it whatever you want
 
 ```bash
-cd project
+git clone opencv-python mediapipe==0.10.9 numpy pygame
 ```
+
 
 **2. Install dependencies**
 
