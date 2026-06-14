@@ -35,10 +35,16 @@ A real-time AR music interface built with Python and OpenCV. Each finger on both
 
 ## Installation
 
-Make a Separate Folder in your PC and name it whatever you want
+Make a Separate Folder in your PC and name it whatever you want then open powershell and run this command 
 
 ```bash
-git clone opencv-python mediapipe==0.10.9 numpy pygame
+cd WHATEVER_YOU_NAMED
+```
+After that run this command 
+
+```bash
+git clone https://github.com/AbuBakarFarooq224/Ye-Stronger
+```
 ```
 
 
