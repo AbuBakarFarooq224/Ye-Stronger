@@ -13,7 +13,7 @@ A real-time AR music interface built with Python and OpenCV. Each finger on both
 ## Project Structure
 
 ```
-project2/
+project/
 │
 ├── main.py              # Main app loop
 ├── hand_tracker.py      # MediaPipe hand tracking
@@ -40,7 +40,7 @@ project2/
 **1. Clone or download the project**
 
 ```bash
-cd project2
+cd project
 ```
 
 **2. Install dependencies**
