@@ -47,7 +47,13 @@ After that run this command, you need to have git installed before.
 git clone https://github.com/AbuBakarFarooq224/Ye-Stronger.git
 ```
 
-**2. Install dependencies**
+After cloning the repo, change your directory by following this command.
+
+```bash
+cd Ye-Stronger
+```
+
+**Install dependencies**
 
 ```bash
 pip install opencv-python mediapipe==0.10.9 numpy pygame
