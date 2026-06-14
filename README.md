@@ -1,6 +1,6 @@
 # Gesture Controlled Ye's Stronger
 
-A real-time AR music interface built with Python and OpenCV. Each finger on both hands carries a word label from Daft Punk's *Harder Better Faster Stronger*. Touch a finger with your thumb (the play button) to trigger that word's audio clip.
+A real-time AR music interface built with Python and OpenCV. Each finger on both hands carries a word label from Ye's *Stronger*. Touch a finger with your thumb (the play button) to trigger that word's audio clip.
 
 ---
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ## Adding Audio
 
-Chop *Harder Better Faster Stronger* by Daft Punk into 8 short `.wav` clips and place them in the `assets/` folder with these exact filenames:
+Chop *Stronger* by Ye into 8 short `.wav` clips and place them in the `assets/` folder with these exact filenames:
 
 | File | Word |
 |------|------|
@@ -133,17 +133,6 @@ A `touching` set tracks active contacts. Audio only fires on the **first frame**
 
 ---
 
-## Troubleshooting
-
-| Problem | Fix |
-|---------|-----|
-| Piano sounds instead of voice | Add `.wav` files to `assets/` folder |
-| Webcam not opening | Change `VideoCapture(0)` to `VideoCapture(1)` |
-| `mediapipe` has no attribute `solutions` | Run `pip install mediapipe==0.10.9` |
-| Low FPS | Reduce webcam resolution in `main.py` |
-| Audio not triggering | Increase `thresh` value in `thumb_hits_finger()` in `main.py` |
-
----
 
 ## Built With
 
