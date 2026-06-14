@@ -35,17 +35,17 @@ A real-time AR music interface built with Python and OpenCV. Each finger on both
 
 ## Installation
 
-Make a Separate Folder in your PC and name it whatever you want then open powershell and run this command 
+Make a Separate Folder in your PC and name it whatever you want, then open powershell and run this command 
 
 ```bash
 cd WHATEVER_YOU_NAMED
 ```
-After that run this command 
+
+After that run this command, you need to have git installed before.
 
 ```bash
 git clone https://github.com/AbuBakarFarooq224/Ye-Stronger.git
 ```
-
 
 **2. Install dependencies**
 
@@ -59,11 +59,21 @@ Or use the requirements file:
 pip install -r requirements.txt
 ```
 
+## Running
+
+```bash
+python main.py
+```
+Press **Q** to quit.
+
+> If the webcam doesn't open, edit line 8 of `main.py` and change `VideoCapture(0)` to `VideoCapture(1)`.
+
 ---
+
 
 ## Adding Audio
 
-Chop *Stronger* by Ye into 8 short `.wav` clips and place them in the `assets/` folder with these exact filenames:
+Chopped *Stronger* by Ye into 8 short `.wav` clips and place them in the `assets/` folder with these exact filenames:
 
 | File | Word |
 |------|------|
@@ -76,18 +86,6 @@ Chop *Stronger* by Ye into 8 short `.wav` clips and place them in the `assets/` 
 | `faster.wav` | Faster |
 | `stronger.wav` | Stronger |
 
-
-## Running
-
-```bash
-python main.py
-```
-
-Press **Q** to quit.
-
-> If the webcam doesn't open, edit line 8 of `main.py` and change `VideoCapture(0)` to `VideoCapture(1)`.
-
----
 
 ## How It Works
 
