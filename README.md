@@ -1,4 +1,4 @@
-# Gesture Controlled Music Mixer 🎵🖐️
+# Gesture Controlled Ye's Stronger
 
 A real-time AR music interface built with Python and OpenCV. Each finger on both hands carries a word label from Daft Punk's *Harder Better Faster Stronger*. Touch a finger with your thumb (the play button) to trigger that word's audio clip.
 
