@@ -1,5 +1,5 @@
 """
-main.py — Gesture Controlled Music Mixer
+main.py — Gesture Controlled Music Mixer .
 - 8 words on 8 fingers (no thumbs)
 - Play button follows each thumb
 - When thumb (play button) touches any finger tip → play that finger's word
