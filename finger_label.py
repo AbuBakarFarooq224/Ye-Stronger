@@ -1,5 +1,5 @@
 """
-finger_label.py
+finger_label.py .
 Draws a green bounding box label anchored to a fingertip position.
 """
 
