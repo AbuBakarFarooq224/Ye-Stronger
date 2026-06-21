@@ -1,5 +1,5 @@
 """
-audio_manager.py
+audio_manager.py .
 Loads .wav files from assets/ and plays them on demand.
 Falls back to a synthetic sine-wave tone if a file is missing.
 """
