@@ -1,5 +1,5 @@
 """
-hand_tracker.py
+hand_tracker.py .
 Tracks both hands. Returns:
   - 8 fingertip positions (4 fingers x 2 hands, NO thumbs)
   - 2 thumb tip positions (one per hand)
